@@ -1,0 +1,240 @@
+<!DOCTYPE html>
+<html>
+    <head>
+        <style>
+            body{
+            font-family: calibri;
+            }  
+            * {
+            padding: 0;
+            margin: 0;
+        }
+            .anhtrai{
+                float: left;
+            }
+            .anhtrai img{
+                height: 900px;
+                width: 120px;
+            }
+            .giua{
+                float: left;
+                margin-left: 14px;
+            }
+            .anhphai{
+                float: right;
+            }
+            .anhphai img{
+                height: 900px;
+                width: 120px;
+            }
+            #anhtren{
+                width:980px;
+                height: 190px;
+            }
+            #menu ul{
+                background-color: rgb(22, 71, 231);
+                border-radius: 3px;
+                margin-top: -2px;
+            }
+            #menu ul a{
+                text-decoration: none;
+                color: white;
+            }
+            #menu >ul >li{
+            display: inline-block;
+            width: 100px;
+            text-align: center;
+            line-height: 40px;       
+            }
+            #menu ul li:hover{
+            background-color:rgb(247, 201, 76);
+           }
+           .submenu li{
+            width: 150px;
+            position: relative;
+            list-style: none;
+            text-align: left;
+            background-color: white;
+            border:1px solid rgb(158, 152, 152);
+            }
+            #menu ul li:hover .submenu {
+                display: block;
+            }
+            .submenu {
+                display: none;
+                position: absolute;
+            }
+           .anh1{
+            border: 1.5px solid rgb(139, 139, 110) ;
+            border-radius: 5px;
+            width: 980px;
+            height: 150px;
+           } 
+           .khoi{
+            border: 1.5px solid rgb(139, 139, 110) ;
+            border-radius: 5px;
+            width: 310px;
+            height: 265px;
+            float: left;   
+            margin-top: 15px;
+            position: relative;
+            font-size:x-small;
+          }
+          #canle{
+            margin-left: 21px;
+            margin-right: 21px;
+        }
+        .khoi1{
+            background-color:rgb(223, 222, 219);
+            width:310px ;
+            height: 40px;
+        }
+        h4{
+            text-align: center;
+            position: absolute;
+            margin: 10px 10px;
+            color: rgb(55, 55, 226);
+        }
+        .nd{
+            padding-top: 10px;       
+            margin: 15px;
+        }
+        .anhnho img{
+            background-color: cyan;
+            width: 120px;
+            height: 80px;
+            float: left;
+            margin-top: -10px;
+            margin-right: 10px;
+        }
+        b{
+            color: rgb(19, 19, 243);  
+        }
+        pre{
+            color: rgb(112, 131, 131);
+            margin: 4px -53px;
+            font-weight: 50;
+        }  
+        .vb{
+            color: black;
+            font-weight: 400;  
+        }
+        .ket{
+            width:980px;
+            height: 100px;
+            margin-top: 300px;
+            border: 1.5px solid rgb(139, 139, 110) ;
+        }
+        h4{
+            padding: 30px 360px;
+        }
+        h2{
+            color: blue;
+            padding: 10px 15px;
+        }
+        </style>
+    </head>
+    <body>
+        <div class="anhtrai">
+            <img src="img_TH4/anhnen.PNG">
+        </div>
+        <div class="giua">
+            <img id="anhtren" src="img_TH4/utehy.png">
+            <section id="menu">
+                <ul>
+                    <li><a href="#">Trang chủ</a></li>
+                    <li><a href="#">Giới thiệu</a>
+                        <ul class="submenu">
+                    <li style="margin-top: 5px;"><a style="color: black;" href="#">Lịch sử phát triển</a>
+                    <li><a style="color: black;"href="#">Tầm nhìn và sứ mệnh</a>
+                    <li><a style="color: black;"href="#">Cơ cấu tổ chức</a>
+                </ul>
+                    </li>
+                    <li><a href="#">Tin tức</a></li>
+                    <li><a href="#">Sản phẩm</a></li>
+                    <li><a href="#">Giải pháp</a></li>
+                    <li><a href="#">Khách hàng</a></li>
+                    <li><a href="#">Tuyển dụng</a></li>
+                    <li><a href="#">Liên hệ</a></li>
+                </ul>
+            </section>
+            <div>
+                <div>
+                    <img class="anh1" src="img_TH4/Capture.PNG">
+                </div>
+                <div>
+                    <div class="khoi">
+                        <div class="khoi1">
+                            <h2>Sản Phẩm</h2>
+                        </div>
+                        <div class="nd">
+                            <div class="anhnho">
+                                <img src="img_TH4/maychamthi.jpg">
+                            </div>
+                            <div>
+                                <b>Phần mềm máy chấm thi trắc nghiệm TestPro Engine<b>
+                                <pre>Đăng ngày: 01/06/2012 07:42 AM</pre>
+                                <span class="vb">Với mục tiêu luôn đi đầu về giải pháp thi trắc nghiệm, Phòng phát triển và gia công phần mềm thuộc Trung Tâm Hưng Yên Aptech: CNTT&TT - Trường Đại học Sư phạm Kỹ thuật Hưng Yên tiếp tục nghiên cứu và đã cho ra một sản phẩm mới - Máy chấm thi trắc nghiệm TestPro Engine </span>
+                                <ul>
+                                    <li>Tiêu chí tin liên quan 1</li>
+                                    <li>Tiêu chí tin liên quan 2</li>
+                                    <li>Tiêu chí tin liên quan 3</li>
+                                    <li>Tiêu chí tin liên quan 4</li>
+                                    <li>Tiêu chí tin liên quan 5</li>
+                                </ul>
+                            </div>
+                        </div>
+                    </div>
+                    <div class="khoi" id="canle">
+                        <div class="khoi1">
+                            <h2>Giải pháp</h2>
+                        </div>
+                        <div class="nd">
+                            <div class="anhnho">
+                                <img src="img_TH4/hop.jpg">
+                            </div>
+                            <div>
+                                <b>Giải pháp hội thảo trực tuyến<b>                 
+                                <pre>Đăng ngày: 01/06/2012 07:42 AM</pre>
+                                <span class="vb">Sau nhiều năm nghiên cứu, phát triển ứng dụng Họp trực tuyến, chúng tôi đã chính tức tung ra thị trường sản phẩm Navi Video ConFerence Version 3.0 từ cuối năm 2011.</span>
+                                <ul>
+                                    <li>Tiêu chí tin liên quan 1</li>
+                                    <li>Tiêu chí tin liên quan 2</li>
+                                    <li>Tiêu chí tin liên quan 3</li>
+                                    <li>Tiêu chí tin liên quan 4</li>
+                                    <li>Tiêu chí tin liên quan 5</li>
+                                </ul>
+                            </div>
+                        </div>
+                    </div>
+                    <div class="khoi">
+                            <div class="khoi1">           
+                                <h2>Tin tức</h2>
+                            </div>
+                            <div class="nd">
+                                <div class="anhnho">
+                                    <img src="img_TH4/maytinh.jpg">
+                                </div>                    
+                                <b>Microsoft công bố Window 8 Release Preview<b>                  
+                                <pre>Đăng ngày: 01/06/2012 07:42 AM</pre>
+                                <span class="vb">Rạng sáng nay (1/6) theo giờ Việt Nam, Microsoft đã chính thức công bố phiên bản Window 8 Release Preview với nhiều tính năng và ứng dụng mới được thêm vào.</span>
+                                <ul>
+                                    <li>Tiêu chí tin liên quan 1</li>
+                                    <li>Tiêu chí tin liên quan 2</li>
+                                    <li>Tiêu chí tin liên quan 3</li>
+                                    <li>Tiêu chí tin liên quan 4</li>
+                                    <li>Tiêu chí tin liên quan 5</li>
+                                </ul>
+                            </div>
+                    </div>
+                </div>
+            </div>
+            <div class="ket">
+                <h4>Bản quyền này thuộc về <Đỗ Thị Lý></h4>
+            </div>
+        </div>
+        <div class="anhphai">
+            <img src="img_TH4/anhnen.PNG">
+        </div>
+    </body>
+</html>
